@@ -1,11 +1,13 @@
-
-
 export default function Home({articles}) {
   console.log("articles",articles)
   return (
-    <div >
-
+    <div>
       <h1>Hello World</h1>
+      {/* {articles.map(item => (
+        <h2 key={item.id}>
+          {item.name}
+        </h2>
+      ))} */}
     </div>
   )
 }
